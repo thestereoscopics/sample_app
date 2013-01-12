@@ -14,13 +14,14 @@ group :production do
 end
 
 group :development do
-    gem 'rspec', '2.12.0'  
+    gem 'rspec', '2.12'  
     gem 'rspec-rails', '>= 2.0.1'
 end
 
 group :test do
-    gem 'rspec', '2.12.0'  
+    gem 'rspec', '2.12'  
     gem 'rspec-rails', '>= 2.0.1'
+    gem 'webrat'
 end
 
 # Gems used only for assets and not required
