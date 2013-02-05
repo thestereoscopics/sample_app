@@ -11535,3 +11535,169 @@ ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2013-02-05 13:27:04 -0800
 Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-05 13:32:28 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_stylesheets.html.erb (16.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 21ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2013-02-05 13:32:28 -0800
+Served asset /blueprint/screen.css - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/thestereoscopics/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2013-02-05 13:32:28 -0800
+Served asset /blueprint/print.css - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/thestereoscopics/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-02-05 13:32:28 -0800
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-02-05 13:32:36 -0800
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_stylesheets.html.erb (14.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2013-02-05 13:32:36 -0800
+Served asset /blueprint/screen.css - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/thestereoscopics/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2013-02-05 13:32:36 -0800
+Served asset /blueprint/print.css - 404 Not Found (4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.4) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.4) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.4) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.4) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.4) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/thestereoscopics/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/thestereoscopics/.rvm/gems/ruby-1.9.3-p327/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-02-05 13:32:36 -0800
+Served asset /logo.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130205191442)
+Migrating to AddEmailUniquenessIndex (20130205210927)
+Migrating to AddPasswordToUsers (20130205220422)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "users" ADD "encrypted_password" varchar(255)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130205220422')[0m
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.5ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "encrypted_password" varchar(255)) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130205220422')
+  [1m[36m (0.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130205191442')[0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130205210927')
