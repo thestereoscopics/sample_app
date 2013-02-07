@@ -23,6 +23,7 @@ group :test do
     gem 'rspec', '2.12'  
     gem 'rspec-rails', '>= 2.0.1'
     gem 'webrat'
+    gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
