@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
+gem 'gravatar_image_tag'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -16,12 +17,14 @@ end
 group :development do
     gem 'rspec', '2.12'  
     gem 'rspec-rails', '>= 2.0.1'
+    gem 'annotate'
 end
 
 group :test do
     gem 'rspec', '2.12'  
     gem 'rspec-rails', '>= 2.0.1'
     gem 'webrat'
+    gem 'factory_girl_rails'
 end
 
 # Gems used only for assets and not required
